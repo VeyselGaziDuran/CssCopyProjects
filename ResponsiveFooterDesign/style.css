@@ -19,9 +19,10 @@ main{
     font-weight: bold;
 }
 
-footer{
+.footer{
     display: flex;
-    flex-wrap: row wrap;
+    flex-flow: row wrap;
+    padding: 50px;
     color: #fff;
     background-color: #25242a;
 }
@@ -113,3 +114,24 @@ h2{
     height: 36px;
 }
 
+@media screen and (min-width:600px){
+    .right-area > *{
+        flex: 1;
+    }
+    .left-area{
+        flex: 1 0px;
+    }
+    .right-area{
+        flex: 2 0px;
+    }
+}
+
+@media screen and (max-width:600px){
+    footer{
+        padding: 15px;
+    }
+
+    .main{
+        font-size: 55px;
+    }
+}
