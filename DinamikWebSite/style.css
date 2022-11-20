@@ -29,7 +29,7 @@ body{
     position: absolute;
     top: 58%;
     left: 57%;
-    color: rgba(180, 164, 164, 0.603);
+    color: rgba(164, 172, 180, 0.603);
     font-size: 150px;
     font-weight: bold;
     letter-spacing: 5px;
@@ -67,3 +67,52 @@ body{
     margin-bottom: 4px;
     margin-right: 4px;
 }
+
+
+/****************** ROW SECTİON *********************/
+
+
+.container .row{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.container .col-2{
+    flex-basis: 50%;
+    min-width: 300px;
+}
+
+.container .row .col-2 h1{
+    color: #fff;
+    font-size: 60px;
+    line-height: 60px;
+    font-weight: bolder;
+    letter-spacing: 3px;
+    margin: 25px 0;
+}
+
+.container .row .col-2 p{
+    color: #fff;
+    font-size: 14px;
+    line-height: 30px;
+}
+
+.container .row .col-2 .btn{
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    padding: 8px 20px;
+    background-color: #5ba3bc;
+    border-radius: 35px;
+    margin-top: 45px;
+    font-weight: bold;
+    font-size: 15px;
+    transition: 1s;
+}
+
+.container .row .col-2 .btn:hover{
+    background-color: #e36907;
+}
+
