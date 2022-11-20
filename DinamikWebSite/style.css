@@ -116,3 +116,159 @@ body{
     background-color: #e36907;
 }
 
+
+/************ RING-SECTION ************/
+
+
+.col-2 .ring img{
+    width: 100%;
+    max-width: 580px;
+}
+
+#circle-ring{
+    padding-left: 130px;
+    padding-top: 60px;
+}
+
+.col-2 .ring{
+    position: relative;
+    width: 400px;
+    height: 400px;
+    background-color: transparent;
+    border: 3px solid #3c3c3c;
+    border-radius: 50%;
+    box-shadow: 0 0 20px rgba(0,0,0,0.5);
+    z-index: -1;
+}
+
+.col-2 .ring::before{
+    content: "";
+    position: absolute;
+    top: -3px;
+    left: -3px;
+    width: 100%;
+    height: 100%;
+    border: 3px solid transparent;
+    border-top: 3px solid #fff12e;
+    border-right: 3px solid #fff12e;
+    border-radius: 50%;
+    z-index: -1;
+    animation: returnCircle 10s linear infinite ;
+}
+
+.col-2 .ring .circle{
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 50%;
+    height: 4px;
+    background-color: transparent;
+    transform-origin: left;
+    z-index: -1;
+    animation: return 10s linear infinite;
+}
+
+.col-2 .ring .circle::before{
+    content: "";
+    position: absolute;
+    top: -6px;
+    right: -9px;
+    width: 16px;
+    height: 16px;
+    background-color: #fff12e;
+    border-radius: 50%;
+    box-shadow: 0 0 20px #fff12e;
+    z-index: -1;
+}
+
+.col-2 .ring-two{
+    position: absolute;
+    top: 11%;
+    left: 55.34%;
+    width: 500px;
+    height: 500px;
+    background: transparent;
+    border: 3px solid #3c3c3c;
+    border-radius: 50%;
+}
+
+.col-2 .ring-two::before{
+    content: "";
+    position: absolute;
+    top: -3px;
+    left: -3px;
+    width: 100%;
+    height: 100%;
+    border: 3px solid transparent;
+    border-bottom: 3px solid #fff12e;
+    border-left: 3px solid #fff12e;
+    border-radius: 50%;
+    animation: returnCircle2 10s linear infinite;
+}
+
+.col-2 .ring-two .circle-two{
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 50%;
+    height: 4px;
+    background-color: transparent;
+    transform-origin: left;
+    animation: return2 10s linear infinite;
+}
+
+.col-2 .ring-two .circle-two::before{
+    content: "";
+    position: absolute;
+    top: -6px;
+    right: -8px;
+    width: 16px;
+    height: 16px;
+    background: #fff12e;
+    border-radius: 50%;
+    box-shadow: 0 0 20px #fff12e;
+}
+
+
+@keyframes returnCircle {
+    0%{
+        transform: rotate(0deg);
+    }
+
+    100%{
+        transform: rotate(360deg);
+    }
+}   
+
+@keyframes return {
+    0%{
+        transform: rotate(45deg);
+    }
+
+    100%{
+        transform: rotate(405deg);
+    }
+}   
+
+
+@keyframes returnCircle2 {
+    0%{
+        transform: rotate(-45deg);
+    }
+
+    100%{
+        transform: rotate(-405deg);
+    }
+}   
+
+@keyframes return2 {
+    0%{
+        transform: rotate(0deg);
+    }
+
+    100%{
+        transform: rotate(-360deg);
+    }
+}   
