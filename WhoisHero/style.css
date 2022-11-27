@@ -83,6 +83,7 @@ body{
 .card:hover img{
     left: 72%;
     height: 350px;
+    z-index: 1;
 }
 
 .card .content{
@@ -100,6 +101,7 @@ body{
     left: 0;
     opacity: 1;
     visibility: visible;
+    z-index: 2;
 }
 
 .card .content h2{
@@ -112,6 +114,8 @@ body{
 .card .content p{
     color: #fff;
 }
+
+
 
 .card .content a{
     display: inline-block;
@@ -131,7 +135,10 @@ body{
 
 .container:hover .card:hover{
     filter: blur(0px);
+    z-index: 1;
 }
+
+
 
 /************************** RESPONSİVE ************************/
 
