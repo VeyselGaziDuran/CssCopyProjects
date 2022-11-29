@@ -24,6 +24,9 @@ https://user-images.githubusercontent.com/81925500/204623091-e891f491-6ca4-4a23-
 
 [Flexbox Web Site](http://https://github.com/VeyselGaziDuran/CssCopyProjects/tree/main/FlexboxWebsite "Flexbox Web Site")
 
+![screencapture-127-0-0-1-5500-FlexboxWebsite-index-html-2022-11-29-22_08_54](https://user-images.githubusercontent.com/81925500/204623304-2cabc458-83a9-4089-8caa-8f29e8a139f0.png)
+
+
 
 ------------
 
