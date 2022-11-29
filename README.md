@@ -33,6 +33,12 @@ https://user-images.githubusercontent.com/81925500/204623091-e891f491-6ca4-4a23-
 [Landing Page Web Site](http://https://github.com/VeyselGaziDuran/CssCopyProjects/tree/main/LandingPageWebSite "Landing Page Web Site")
 
 
+
+https://user-images.githubusercontent.com/81925500/204624473-694313dc-a118-46f6-8739-d596aa28c513.mp4
+
+
+
+
 ------------
 
 [Responsive Footer Design](http://https://github.com/VeyselGaziDuran/CssCopyProjects/tree/main/ResponsiveFooterDesign "Responsive Footer Design")
