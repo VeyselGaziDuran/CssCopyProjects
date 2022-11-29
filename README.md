@@ -14,6 +14,12 @@ I remade some of the projects I liked on Youtube with their own touches.
 [Dinamik Web Site](http://https://github.com/VeyselGaziDuran/CssCopyProjects/tree/main/DinamikWebSite "Dinamik Web Site")
 
 
+
+https://user-images.githubusercontent.com/81925500/204623091-e891f491-6ca4-4a23-b8ff-4597d056fa55.mp4
+
+
+
+
 ------------
 
 [Flexbox Web Site](http://https://github.com/VeyselGaziDuran/CssCopyProjects/tree/main/FlexboxWebsite "Flexbox Web Site")
