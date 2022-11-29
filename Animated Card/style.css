@@ -26,10 +26,12 @@ img{
     height: 500px;
     width: 350px;
     border-radius: 5px;
+    transition: .5s;
+
 }
 
 .intro{
-    height: 200px;
+    height: 70px;
     width: 350px;
     padding: 6px;
     box-sizing: border-box;
@@ -37,6 +39,7 @@ img{
     bottom: 240px;
     background-color: rgb(27, 27, 27, .5);
     color: white;
+    transition: .5s;
 }
 
 h1{
@@ -57,4 +60,19 @@ span{
 
 .card:hover{
     cursor: pointer;
+}
+
+.card:hover .intro{
+    height: 220px;
+    bottom: 240px;
+    background: black;
+}
+
+.card:hover p{
+    opacity: 1;
+    visibility: visible;
+}
+
+.card:hover img{
+    transform: scale(1.1) rotate(-3deg);
 }
