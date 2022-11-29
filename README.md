@@ -44,6 +44,9 @@ https://user-images.githubusercontent.com/81925500/204624473-694313dc-a118-46f6-
 [Responsive Footer Design](http://https://github.com/VeyselGaziDuran/CssCopyProjects/tree/main/ResponsiveFooterDesign "Responsive Footer Design")
 
 
+![screencapture-127-0-0-1-5500-ResponsiveFooterDesign-index-html-2022-11-29-22_17_16](https://user-images.githubusercontent.com/81925500/204624814-b116d1af-d2f3-478a-ae4f-a7a8584f1464.png)
+
+
 ------------
 
 [Who is Hero](http://https://github.com/VeyselGaziDuran/CssCopyProjects/tree/main/WhoisHero "Who is Hero")
